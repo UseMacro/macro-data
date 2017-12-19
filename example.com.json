@@ -1,0 +1,29 @@
+{
+    "name": "Example shortcuts",
+    "sections": [
+        {
+            "name": "Navigation",
+            "shortcuts": [
+                {
+                    "name": "Move up",
+                    "keys": [
+                        {
+                            "windows": "j",
+                            "default": ["cmd", "up"],
+                            "macos": ["cmd", "up"]
+                        }
+                    ]
+                },
+                {
+                    "name": "Move down",
+                    "keys": [{"default": "d"}]
+                }
+            ]
+        },
+        {
+            "name": "Nested section",
+            "sections": []
+        }
+    ]
+}
+
