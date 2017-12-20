@@ -1,14 +1,18 @@
+
 {
     "name": "Example shortcuts",
+    "description": "description about these shortcuts",
     "sections": [
         {
             "name": "Navigation",
+            "description": "This section is about navigation",
             "shortcuts": [
                 {
                     "name": "Move up",
+                    "description": "Move your cursor up",
                     "keys": [
                         {
-                            "windows": "j",
+                            "windows": ["j"],
                             "default": ["cmd", "up"],
                             "macos": ["cmd", "up"]
                         }
@@ -16,14 +20,10 @@
                 },
                 {
                     "name": "Move down",
+                    "description": "move down fool",
                     "keys": [{"default": "d"}]
                 }
             ]
-        },
-        {
-            "name": "Nested section",
-            "sections": []
         }
     ]
 }
-
