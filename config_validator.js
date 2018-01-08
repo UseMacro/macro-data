@@ -7,7 +7,7 @@ const ALPHABET_KEYS = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l
 const NUMBER_KEYS = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 const SPECIAL_KEYS = ['`', 'esc', 'tab', 'caps', 'shift', 'fn', 'ctrl', 'alt', 'cmd', '-', '=', 'back', 'delete',
                       'enter', '[', ']', '\\', ';', "'", ',', '.', '/', 'up', 'down', 'left', 'right', 'insert',
-                      'home', 'end', 'pg dn', 'pg up', 'win'];
+                      'home', 'end', 'pg dn', 'pg up', 'win', '+'];
 const SUPPORTED_KEYS = ALPHABET_KEYS.concat(NUMBER_KEYS, SPECIAL_KEYS);
 
 function validate(data) {
@@ -22,20 +22,20 @@ function validate(data) {
 function validateConfig(config) {
   numKeys = Object.keys(config).length;
   if (numKeys > 3) throw 'more than 3 keys in config';
-  if (numKeys == 3) validateStringProp(config, 'description');
+  if (numKeys === 3) validateStringProp(config, 'description');
   validateStringProp(config, 'name');
   validateArrayProp(config, 'sections');
   validateSections(config.sections);
 }
 
 function validateSections(sections) {
-  if (sections.length == 0) {
+  if (sections.length === 0) {
     return;
   }
   section = sections[0];
   numKeys = Object.keys(section).length;
   if (numKeys > 3) throw 'more than 3 keys in section';
-  if (numKeys == 3) validateStringProp(section, 'description');
+  if (numKeys === 3) validateStringProp(section, 'description');
   validateStringProp(section, 'name');
   validateArrayProp(section, 'shortcuts');
   validateShortcuts(section.shortcuts);
@@ -43,13 +43,13 @@ function validateSections(sections) {
 }
 
 function validateShortcuts(shortcuts) {
-  if (shortcuts.length == 0) {
+  if (shortcuts.length === 0) {
     return;
   }
   shortcut = shortcuts[0];
   numKeys = Object.keys(shortcut).length;
   if (numKeys > 3) throw 'more than 3 keys in shortcut';
-  if (numKeys == 3) validateStringProp(shortcut, 'description');
+  if (numKeys === 3) validateStringProp(shortcut, 'description');
   validateStringProp(shortcut, 'name');
   validateArrayProp(shortcut, 'keys');
   validateKeys(shortcut.keys);
@@ -57,7 +57,7 @@ function validateShortcuts(shortcuts) {
 }
 
 function validateKeys(keys) {
-  if (keys.length == 0) {
+  if (keys.length === 0) {
     return;
   }
   key = keys[0];
@@ -74,7 +74,7 @@ function validateKeys(keys) {
 function validateArrayProp(obj, prop) {
   if (!obj.hasOwnProperty(prop)) throw 'missing prop: ' + prop + ' in object: ' + JSON.stringify(obj);
   if (!(obj[prop] instanceof Array)) throw 'expected array for prop: ' + prop + ' in object: ' + JSON.stringify(obj);
-  if (obj[prop].length == 0) throw 'array size == 0 for prop: ' + prop + ' in object: ' + JSON.stringify(obj);
+  if (obj[prop].length === 0) throw 'array size === 0 for prop: ' + prop + ' in object: ' + JSON.stringify(obj);
 }
 
 function validateStringProp(obj, prop) {
@@ -83,7 +83,7 @@ function validateStringProp(obj, prop) {
 }
 
 function isValidString(x) {
-  return typeof x == 'string' && x == x.toLowerCase();
+  return typeof x === 'string' && x === x.toLowerCase();
 }
 
 function validateOSProp(obj, prop) {
@@ -92,7 +92,7 @@ function validateOSProp(obj, prop) {
   for (var i = 0; i < obj[prop].length; i++) {
     var key = obj[prop][i];
     if (!isValidString(key)) throw 'invalid string: ' + key + ' for os: ' + prop + ' in object: ' + JSON.stringify(obj);
-    if (SUPPORTED_KEYS.indexOf(key) == -1) throw 'unsupported key: ' + key + ' for os: ' + prop + ' in object: ' + JSON.stringify(obj);
+    if (SUPPORTED_KEYS.indexOf(key) === -1) throw 'unsupported key: ' + key + ' for os: ' + prop + ' in object: ' + JSON.stringify(obj);
   }
 }
 
