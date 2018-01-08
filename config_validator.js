@@ -6,8 +6,8 @@ const ALPHABET_KEYS = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l
                        'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 const NUMBER_KEYS = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 const SPECIAL_KEYS = ['`', 'esc', 'tab', 'caps', 'shift', 'fn', 'ctrl', 'alt', 'cmd', '-', '+', 'back', 'delete',
-                      'enter', '[', ']', '\\', ';', "'", ',', '.', '/', 'up', 'down', 'left', 'right', 'insert',
-                      'home', 'end', 'pg dn', 'pg up', 'win'];
+                      'enter', '[', ']', '\\', ';', "'", ',', '.', '/', 'up', 'down', 'left', 'right', 'home', 'end',
+                      'pg dn', 'pg up', 'win'];
 const SUPPORTED_KEYS = ALPHABET_KEYS.concat(NUMBER_KEYS, SPECIAL_KEYS);
 
 function validate(data) {
