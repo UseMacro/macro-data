@@ -12,8 +12,8 @@
 					"keys": [
 						{
 							"windows": ["j"],
-							"default": ["cmd", "up"],
-							"macos": ["cmd", "up"]
+							"default": ["cmd+up"],
+							"macos": ["cmd+up"]
 						}
 					]
 				},
