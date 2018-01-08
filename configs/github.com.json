@@ -1,28 +1,105 @@
 {
-	"name": "example shortcuts",
-	"description": "description about these shortcuts",
-	"sections": [
-		{
-			"name": "navigation",
-			"description": "this section is about navigation",
-			"shortcuts": [
-				{
-					"name": "move up",
-					"description": "move your cursor up",
-					"keys": [
-						{
-							"windows": ["j"],
-							"default": ["cmd", "up"],
-							"macos": ["cmd", "up"]
-						}
-					]
-				},
-				{
-					"name": "move down",
-					"description": "move down fool",
-					"keys": [{"default": ["d"]}]
-				}
-			]
-		}
-	]
+    "name": "Github shortcuts",
+    "sections": [
+        {
+            "name": "Navigation",
+            "shortcuts": [
+                {
+                    "name": "Up",
+                    "keys": [{"default": ["k"]}]
+                },
+                {
+                    "name": "Down",
+                    "keys": [{"default": ["j"]}]
+                },
+                {
+                    "name": "Left",
+                    "keys": [{"default": ["h"]}]
+                },
+                {
+                    "name": "Right",
+                    "keys": [{"default": ["l"]}]
+                }
+            ]
+        },
+        {
+            "name": "Site wide shortcuts",
+            "shortcuts": [
+                {
+                    "name": "Focus search bar",
+                    "keys": [{"default": ["s"]}]
+                },
+                {
+                    "name": "Go to notifications",
+                    "keys": [{"default": ["g", "n"]}]
+                },
+                {
+                    "name": "Go to dashboard",
+                    "keys": [{"default": ["g", "d"]}]
+                },
+                {
+                    "name": "Help",
+                    "keys": [{"default": ["?"]}]
+                },
+                {
+                    "name": "Toggle selection",
+                    "keys": [{"default": ["x"]}]
+                },
+                {
+                    "name": "Open selection",
+                    "keys": [{"default": ["enter"]}]
+                }
+            ]
+        },
+        {
+            "name": "Repositories",
+            "shortcuts": [
+                {
+                    "name": "Go to code",
+                    "keys": [{"default": ["g", "c"]}]
+                },
+                {
+                    "name": "Go to issues",
+                    "keys": [{"default": ["g", "i"]}]
+                },
+                {
+                    "name": "Go to pull requests",
+                    "keys": [{"default": ["g", "p"]}]
+                },
+                {
+                    "name": "Go to wiki",
+                    "keys": [{"default": ["g", "w"]}]
+                }
+            ]
+        },
+        {
+            "name": "Source code browsing",
+            "shortcuts": [
+                {
+                    "name": "Activates the file finder",
+                    "keys": [{"default": ["t"]}]
+                },
+                {
+                    "name": "Jump to line",
+                    "keys": [{"default": ["l"]}]
+                },
+                {
+                    "name": "Switch branch/tag",
+                    "keys": [{"default": ["w"]}]
+                },
+                {
+                    "name": "Expand URL to its canonical form",
+                    "keys": [{"default": ["y"]}]
+                },
+                {
+                    "name": "Show'hide all inline notes",
+                    "keys": [{"default": ["i"]}]
+                },
+                {
+                    "name": "Open blame",
+                    "keys": [{"default": ["b"]}]
+                }
+            ]
+        }
+    ]
 }
