@@ -1,4 +1,14 @@
 {
     "name": "Messenger shortcuts",
-    "sections": []
+    "sections": [
+        {
+            "name": "Misc",
+            "shortcuts": [
+                {
+                    "name": "Emoji Search",
+                    "keys": [{"default": ["ctrl+cmd+space"]}]
+                }
+            ]
+        }
+    ]
 }
