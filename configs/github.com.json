@@ -1,102 +1,102 @@
 {
-    "name": "Github shortcuts",
+    "name": "github shortcuts",
     "sections": [
         {
-            "name": "Navigation",
+            "name": "navigation",
             "shortcuts": [
                 {
-                    "name": "Up",
+                    "name": "up",
                     "keys": [{"default": ["k"]}]
                 },
                 {
-                    "name": "Down",
+                    "name": "down",
                     "keys": [{"default": ["j"]}]
                 },
                 {
-                    "name": "Left",
+                    "name": "left",
                     "keys": [{"default": ["h"]}]
                 },
                 {
-                    "name": "Right",
+                    "name": "right",
                     "keys": [{"default": ["l"]}]
                 }
             ]
         },
         {
-            "name": "Site wide shortcuts",
+            "name": "site wide shortcuts",
             "shortcuts": [
                 {
-                    "name": "Focus search bar",
+                    "name": "focus search bar",
                     "keys": [{"default": ["s"]}]
                 },
                 {
-                    "name": "Go to notifications",
+                    "name": "go to notifications",
                     "keys": [{"default": ["g", "n"]}]
                 },
                 {
-                    "name": "Go to dashboard",
+                    "name": "go to dashboard",
                     "keys": [{"default": ["g", "d"]}]
                 },
                 {
-                    "name": "Help",
-                    "keys": [{"default": ["?"]}]
+                    "name": "help",
+                    "keys": [{"default": ["/", "shift"]}]
                 },
                 {
-                    "name": "Toggle selection",
+                    "name": "toggle selection",
                     "keys": [{"default": ["x"]}]
                 },
                 {
-                    "name": "Open selection",
+                    "name": "open selection",
                     "keys": [{"default": ["enter"]}]
                 }
             ]
         },
         {
-            "name": "Repositories",
+            "name": "repositories",
             "shortcuts": [
                 {
-                    "name": "Go to code",
+                    "name": "go to code",
                     "keys": [{"default": ["g", "c"]}]
                 },
                 {
-                    "name": "Go to issues",
+                    "name": "go to issues",
                     "keys": [{"default": ["g", "i"]}]
                 },
                 {
-                    "name": "Go to pull requests",
+                    "name": "go to pull requests",
                     "keys": [{"default": ["g", "p"]}]
                 },
                 {
-                    "name": "Go to wiki",
+                    "name": "go to wiki",
                     "keys": [{"default": ["g", "w"]}]
                 }
             ]
         },
         {
-            "name": "Source code browsing",
+            "name": "source code browsing",
             "shortcuts": [
                 {
-                    "name": "Activates the file finder",
+                    "name": "activates the file finder",
                     "keys": [{"default": ["t"]}]
                 },
                 {
-                    "name": "Jump to line",
+                    "name": "jump to line",
                     "keys": [{"default": ["l"]}]
                 },
                 {
-                    "name": "Switch branch/tag",
+                    "name": "switch branch/tag",
                     "keys": [{"default": ["w"]}]
                 },
                 {
-                    "name": "Expand URL to its canonical form",
+                    "name": "expand url to its canonical form",
                     "keys": [{"default": ["y"]}]
                 },
                 {
-                    "name": "Show'hide all inline notes",
+                    "name": "show'hide all inline notes",
                     "keys": [{"default": ["i"]}]
                 },
                 {
-                    "name": "Open blame",
+                    "name": "open blame",
                     "keys": [{"default": ["b"]}]
                 }
             ]
