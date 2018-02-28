@@ -1,14 +1,52 @@
-// Validates shortcut JSON config
-// More details found here: https://paper.dropbox.com/doc/JSON-Data-Format-XaQ21RmPGZS778W2LKza2
+/**
+ * USAGE: call this file using node and pass in directory with configs or config file
+ * i.e. node config_validator.js example.com.json
+ * i.e. node config_validator.js configs
+ *
+ * Validates shortcut JSON config
+ * More details found here: https://paper.dropbox.com/doc/JSON-Data-Format-XaQ21RmPGZS778W2LKza2
+ */
+
+let fs = require('fs');
+let path = require('path');
 
 const SUPPORTED_OS = ['default', 'windows', 'macos', 'linux', 'ubuntu'];
 const ALPHABET_KEYS = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o',
                        'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 const NUMBER_KEYS = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
-const SPECIAL_KEYS = ['`', 'esc', 'tab', 'caps', 'shift', 'fn', 'ctrl', 'alt', 'cmd', '-', '+', 'back', 'delete',
+const SPECIAL_KEYS = ['`', 'esc', 'tab', 'caps', 'shift', 'fn', 'ctrl', 'alt', 'cmd', '-', 'plus', '?', 'back', 'delete',
                       'enter', '[', ']', '\\', ';', "'", ',', '.', '/', 'up', 'down', 'left', 'right', 'home', 'end',
-                      'pg dn', 'pg up', 'win'];
+                      'pg dn', 'pg up', 'win', 'space'];
 const SUPPORTED_KEYS = ALPHABET_KEYS.concat(NUMBER_KEYS, SPECIAL_KEYS);
+
+main();
+
+function main() {
+  let pathArg = process.argv[2];
+  let configArray = readInConfigs(pathArg);
+  configArray.forEach((config) => {
+    let res = validate(config.data);
+    if (res.status === 'success') {
+      console.log(config.path + ': success\n');
+    } else {
+      console.log(config.path + ': error: ' + res.error + '\n');
+    }
+  });
+}
+
+function readInConfigs(pathArg) {
+  let configArray = [];
+  if (fs.lstatSync(pathArg).isDirectory()) {
+    files = fs.readdirSync(pathArg);
+    files.forEach((file) => {
+      configArray = configArray.concat(readInConfigs(path.join(pathArg, file)));
+    });
+  } else {
+    let data = JSON.parse(fs.readFileSync(pathArg, 'utf8'));
+    configArray.push({path: pathArg, data: data});
+  }
+  return configArray;
+}
 
 function validate(data) {
   try {
@@ -92,7 +130,22 @@ function validateOSProp(obj, prop) {
   for (var i = 0; i < obj[prop].length; i++) {
     var key = obj[prop][i];
     if (!isValidString(key)) throw 'invalid string: ' + key + ' for os: ' + prop + ' in object: ' + JSON.stringify(obj);
-    if (SUPPORTED_KEYS.indexOf(key) === -1) throw 'unsupported key: ' + key + ' for os: ' + prop + ' in object: ' + JSON.stringify(obj);
+    if (SUPPORTED_KEYS.indexOf(key) === -1) {
+      validateIfKeyIsInPlusFormat(key);
+    }
+  }
+}
+
+function validateIfKeyIsInPlusFormat(key) {
+  let keys = key.split('+');
+  if (keys.length > 1) {
+    keys.forEach((k) => {
+      if (SUPPORTED_KEYS.indexOf(k) === -1) {
+        throw 'unsupported key: ' + k + ' for os: ' + prop + ' in object: ' + JSON.stringify(obj);
+      }
+    });
+  } else {
+    throw 'unsupported key: ' + key + ' for os: ' + prop + ' in object: ' + JSON.stringify(obj);
   }
 }
 
