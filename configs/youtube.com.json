@@ -1,9 +1,9 @@
 
 {
-    "name": "youtube shortcuts",
+    "name": "Youtube Shortcuts",
     "sections": [
         {
-            "name": "global",
+            "name": "Global",
             "shortcuts": [
                 {
                     "name": "Previous video",
@@ -52,7 +52,7 @@
             ]
         },
         {
-            "name": "when focused on player",
+            "name": "When focused on player",
             "shortcuts": [
                 {
                     "name": "Seek backwards by 5 seconds",
