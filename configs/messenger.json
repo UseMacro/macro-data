@@ -2,23 +2,14 @@
     "name": "messenger shortcuts",
     "sections": [
         {
-            "name": "messaging",
-            "shortcuts": [
-                {
-                    "name": "emoji search",
-                    "keys": [{"default": ["ctrl+cmd+space"]}]
-                }
-            ]
-        },
-        {
             "name": "navigation",
             "shortcuts": [
                 {
-                    "name": "previous chat",
+                    "name": "Previous chat",
                     "keys": [{"default": ["alt+up"]}]
                 },
                 {
-                    "name": "next chat",
+                    "name": "Next chat",
                     "keys": [{"default": ["alt+down"]}]
                 }
             ]
