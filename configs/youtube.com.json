@@ -6,47 +6,47 @@
             "name": "global",
             "shortcuts": [
                 {
-                    "name": "previous video",
+                    "name": "Previous video",
                     "keys": [{"default": ["shift+p"]}]
                 },
                 {
-                    "name": "next video",
+                    "name": "Next video",
                     "keys": [{"default": ["shift+n"]}]
                 },
                 {
-                    "name": "rewind 10 seconds",
+                    "name": "Rewind 10 seconds",
                     "keys": [{"default": ["j"]}]
                 },
                 {
-                    "name": "fast forward 10 seconds",
+                    "name": "Fast forward 10 seconds",
                     "keys": [{"default": ["l"]}]
                 },
                 {
-                    "name": "toggle mute",
+                    "name": "Toggle mute",
                     "keys": [{"default": ["m"]}]
                 },
                 {
-                    "name": "toggle play/pause",
+                    "name": "Toggle play/pause",
                     "keys": [{"default": ["k"]}]
                 },
                 {
-                    "name": "seek backwards by smallest amount possible, when video is paused",
+                    "name": "Seek backwards by smallest amount possible, when video is paused",
                     "keys": [{"default": [","]}]
                 },
                 {
-                    "name": "seek forwards by smallest amount possible, when video is paused",
+                    "name": "Seek forwards by smallest amount possible, when video is paused",
                     "keys": [{"default": ["."]}]
                 },
                 {
-                    "name": "decrease playback rate",
+                    "name": "Decrease playback rate",
                     "keys": [{"default": ["shift+,"]}]
                 },
                 {
-                    "name": "increase playback rate",
+                    "name": "Increase playback rate",
                     "keys": [{"default": ["shift+."]}]
                 },
                 {
-                    "name": "toggle full screen",
+                    "name": "Toggle full screen",
                     "keys": [{"default": ["f"]}]
                 }
             ]
@@ -55,88 +55,88 @@
             "name": "when focused on player",
             "shortcuts": [
                 {
-                    "name": "seek backwards by 5 seconds",
+                    "name": "Seek backwards by 5 seconds",
                     "keys": [{"default": ["left"]}]
                 },
                 {
-                    "name": "seek forwards by 5 seconds",
+                    "name": "Seek forwards by 5 seconds",
                     "keys": [{"default": ["right"]}]
                 },
                 {
-                    "name": "increase volume by 5%",
+                    "name": "Increase volume by 5%",
                     "keys": [{"default": ["up"]}]
                 },
                 {
-                    "name": "decrease volume by 5%",
+                    "name": "Decrease volume by 5%",
                     "keys": [{"default": ["down"]}]
                 },
                 {
-                    "name": "close the current dialog or similar dialogs (share panel)",
+                    "name": "Close the current dialog or similar dialogs (share panel)",
                     "keys": [{"default": ["esc"]}]
                 },
                 {
-                    "name": "seek to the beginning of video",
+                    "name": "Seek to the beginning of video",
                     "keys": [{"default": ["home"]}]
                 },
                 {
-                    "name": "seek to the end of video",
+                    "name": "Seek to the end of video",
                     "keys": [{"default": ["end"]}]
                 },
                 {
-                    "name": "if the video supports captions, toggle captions on/off",
+                    "name": "If the video supports captions, toggle captions on/off",
                     "keys": [{"default": ["c"]}]
                 },
                 {
-                    "name": "rotate through different text opacity levels",
+                    "name": "Rotate through different text opacity levels",
                     "keys": [{"default": ["o"]}]
                 },
                 {
-                    "name": "rotate through different window opacity levels",
+                    "name": "Rotate through different window opacity levels",
                     "keys": [{"default": ["w"]}]
                 },
                 {
-                    "name": "rotate through different window opacity levels",
+                    "name": "Rotate through different window opacity levels",
                     "keys": [{"default": ["w"]}]
                 },
                 {
-                    "name": "rotate through font sizes (increasing)",
+                    "name": "Rotate through font sizes (increasing)",
                     "keys": [{"default": ["+"]}]
                 },
                 {
-                    "name": "rotate through font sizes (decreasing)",
+                    "name": "Rotate through font sizes (decreasing)",
                     "keys": [{"default": ["-"]}]
                 },
                 {
-                    "name": "seek to specific point in video (7 advances to 70% of duration)",
+                    "name": "Seek to specific point in video (7 advances to 70% of duration)",
                     "keys": [{"default": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]}]
                 }
             ]
         },
         {
-            "name": "when focused on spherical video player",
+            "name": "When focused on spherical video player",
             "shortcuts": [
                 {
-                    "name": "pan up",
+                    "name": "Pan up",
                     "keys": [{"default": ["w"]}]
                 },
                 {
-                    "name": "pan left",
+                    "name": "Pan left",
                     "keys": [{"default": ["a"]}]
                 },
                 {
-                    "name": "pan down",
+                    "name": "Pan down",
                     "keys": [{"default": ["s"]}]
                 },
                 {
-                    "name": "pan right",
+                    "name": "Pan right",
                     "keys": [{"default": ["d"]}]
                 },
                 {
-                    "name": "zoom in",
+                    "name": "Zoom in",
                     "keys": [{"default": ["+", "]"]}]
                 },
                 {
-                    "name": "zoom out",
+                    "name": "Zoom out",
                     "keys": [{"default": ["-", "["]}]
                 }
             ]
