@@ -100,7 +100,7 @@
                 },
                 {
                     "name": "Rotate through font sizes (increasing)",
-                    "keys": [{"default": ["+"]}]
+                    "keys": [{"default": ["shift+="]}]
                 },
                 {
                     "name": "Rotate through font sizes (decreasing)",
