@@ -1,4 +1,3 @@
-
 {
     "name": "Youtube Shortcuts",
     "sections": [
@@ -133,11 +132,11 @@
                 },
                 {
                     "name": "Zoom in",
-                    "keys": [{"default": ["+", "]"]}]
+                    "keys": [{"default": ["=+]"]}]
                 },
                 {
                     "name": "Zoom out",
-                    "keys": [{"default": ["-", "["]}]
+                    "keys": [{"default": ["-+["]}]
                 }
             ]
         }

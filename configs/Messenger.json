@@ -1,8 +1,8 @@
 {
-    "name": "messenger shortcuts",
+    "name": "Messenger Shortcuts",
     "sections": [
         {
-            "name": "navigation",
+            "name": "Navigation",
             "shortcuts": [
                 {
                     "name": "Previous chat",
