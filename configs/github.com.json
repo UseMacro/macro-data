@@ -2,27 +2,6 @@
     "name": "Github Shortcuts",
     "sections": [
         {
-            "name": "Navigation",
-            "shortcuts": [
-                {
-                    "name": "Up",
-                    "keys": [{"default": ["k"]}]
-                },
-                {
-                    "name": "Down",
-                    "keys": [{"default": ["j"]}]
-                },
-                {
-                    "name": "Left",
-                    "keys": [{"default": ["h"]}]
-                },
-                {
-                    "name": "Right",
-                    "keys": [{"default": ["l"]}]
-                }
-            ]
-        },
-        {
             "name": "Site wide shortcuts",
             "shortcuts": [
                 {
@@ -39,7 +18,7 @@
                 },
                 {
                     "name": "Help",
-                    "keys": [{"default": ["shift+/"]}]
+                    "keys": [{"default": ["?"]}]
                 },
                 {
                     "name": "Toggle selection",
@@ -47,7 +26,7 @@
                 },
                 {
                     "name": "Open selection",
-                    "keys": [{"default": ["enter"]}]
+                    "keys": [{"default": ["enter", "o"]}]
                 }
             ]
         },
@@ -65,6 +44,10 @@
                 {
                     "name": "Go to pull requests",
                     "keys": [{"default": ["g+p"]}]
+                },
+                {
+                    "name": "Go to projects",
+                    "keys": [{"default": ["g+b"]}]
                 },
                 {
                     "name": "Go to wiki",
