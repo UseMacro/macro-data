@@ -1,0 +1,50 @@
+{
+    "name": "Facebook Shortcuts",
+    "sections": [
+        {
+            "name": "Actions",
+            "shortcuts": [
+                {
+                    "name": "Quick Add & Search",
+                    "keys": [{"default": ["ctrl+option+w"]}]
+                },
+                {
+                    "name": "Add new To-do",
+                    "keys": [{"default": ["command+n"]}]
+                },
+                {
+                    "name": "Add a new list",
+                    "keys": [{"default": ["command+l"]}]
+                },
+                {
+                    "name": "Completed Selected To-dos",
+                    "keys": [{"default": ["command+d"]}]
+                },
+                {
+                    "name": "Search",
+                    "keys": [{"default": ["command+f"]}]
+                },
+                {
+                    "name": "Sync",
+                    "keys": [{"default": ["command+s"]}]
+                },
+                {
+                    "name": "Show activities",
+                    "keys": [{"default": ["shift+command+a"]}]
+                },
+                {
+                    "name": "Normal view",
+                    "keys": [{"default": ["command+1"]}]
+                },
+                {
+                    "name": "Collapsed View",
+                    "keys": [{"default": ["command+2"]}]
+                },
+                {
+                    "name": "Minified view",
+                    "keys": [{"default": ["command+3"]}]
+                }
+            ]
+        }
+    ]
+}
