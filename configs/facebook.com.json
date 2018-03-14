@@ -1,0 +1,99 @@
+{
+    "name": "Facebook Shortcuts",
+    "sections": [
+        {
+            "name": "Actions",
+            "shortcuts": [
+                {
+                    "name": "Next News Feed story",
+                    "keys": [{"default": ["j"]}]
+                },
+                {
+                    "name": "Previous News Feed story",
+                    "keys": [{"default": ["k"]}]
+                },
+                {
+                    "name": "Post a new status",
+                    "keys": [{"default": ["p"]}]
+                },
+                {
+                    "name": "Like selected story",
+                    "keys": [{"default": ["l"]}]
+                },
+                {
+                    "name": "Comment on story",
+                    "keys": [{"default": ["c"]}]
+                },
+                {
+                    "name": "Share selected story",
+                    "keys": [{"default": ["s"]}]
+                },
+                {
+                    "name": "Open attachment from story",
+                    "keys": [{"default": ["o"]}]
+                },
+                {
+                    "name": "See more of story",
+                    "keys": [{"default": ["enter"]}]
+                },
+                {
+                    "name": "Search",
+                    "keys": [{"default": ["/"]}]
+                },
+                {
+                    "name": "Search chat contacts",
+                    "keys": [{"default": ["q"]}]
+                }
+            ]
+        },
+        {
+            "name": "Navigation",
+            "shortcuts": [
+                {
+                    "name": "Help",
+                    "keys": [{"default": ["ctrl+option+0"]}]
+                },
+                {
+                    "name": "Home",
+                    "keys": [{"default": ["ctrl+option+1"]}]
+                },
+                {
+                    "name": "Timeline",
+                    "keys": [{"default": ["ctrl+option+2"]}]
+                },
+                {
+                    "name": "Friends",
+                    "keys": [{"default": ["ctrl+option+3"]}]
+                },
+                {
+                    "name": "Inbox",
+                    "keys": [{"default": ["ctrl+option+4"]}]
+                },
+                {
+                    "name": "Notifications",
+                    "keys": [{"default": ["ctrl+option+5"]}]
+                },
+                {
+                    "name": "Settings",
+                    "keys": [{"default": ["ctrl+option+6"]}]
+                },
+                {
+                    "name": "Activity Log",
+                    "keys": [{"default": ["ctrl+option+7"]}]
+                },
+                {
+                    "name": "About",
+                    "keys": [{"default": ["ctrl+option+8"]}]
+                },
+                {
+                    "name": "Terms",
+                    "keys": [{"default": ["ctrl+option+9"]}]
+                },
+                {
+                    "name": "New Message",
+                    "keys": [{"default": ["ctrl+option+m"]}]
+                }
+            ]
+        }
+    ]
+}
