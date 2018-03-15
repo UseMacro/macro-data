@@ -1,0 +1,216 @@
+{
+    "name": "Slack Shortcuts",
+    "sections": [
+        {
+            "name": "Navigation",
+            "shortcuts": [
+                {
+                    "name": "Move focus to the next element",
+                    "keys": [{"default": ["tab"]}]
+                },
+                {
+                    "name": "Move focus to the previous element",
+                    "keys": [{"default": ["shift+tab"]}]
+                },
+                {
+                    "name": "Move focus through messages",
+                    "keys": [{"default": ["up", "down"]}]
+                },
+                {
+                    "name": "Move focus to the next section",
+                    "keys": [{"default": ["control+`"]}]
+                },
+                {
+                    "name": "Move focus to the previous section",
+                    "keys": [{"default": ["shift+control+`"]}]
+                },
+                {
+                    "name": "Take action on buttons",
+                    "keys": [{"default": ["spacebar"]}]
+                },
+                {
+                    "name": "Take action on links",
+                    "keys": [{"default": ["enter"]}]
+                },
+                {
+                    "name": "Close windows, menus, or the message input box",
+                    "keys": [{"default": ["esc"]}]
+                },
+                {
+                    "name": "Zoom in or out",
+                    "keys": [{"default": ["command++", "command+-"]}]
+                },
+                {
+                    "name": "Scroll up/down",
+                    "keys": [{"default": ["fn+up","fn+down"]}]
+                },
+                {
+                    "name": "Quick Switcher",
+                    "keys": [{"default": ["command+k"]}]
+                },
+                {
+                    "name": "Open direct messsages menu",
+                    "keys": [{"default": ["command+shift+k"]}]
+                },
+                {
+                    "name": "Open All Threads view",
+                    "keys": [{"default": ["command+shift+t"]}]
+                },
+                {
+                    "name": "Previous channel or DM",
+                    "keys": [{"default": ["alt+up"]}]
+                },
+                {
+                    "name": "Next channel or DM",
+                    "keys": [{"default": ["alt+down"]}]
+                },
+                {
+                    "name": "Previous unread channel or DM",
+                    "keys": [{"default": ["alt+shift+up"]}]
+                },
+                {
+                    "name": "Next unread channel or DM",
+                    "keys": [{"default": ["alt+shift+up"]}]
+                },
+                {
+                    "name": "Previous channel or DM visited",
+                    "keys": [{"default": ["command+["]}]
+                },
+                {
+                    "name": "Next channel or DM visited",
+                    "keys": [{"default": ["command+]"]}]
+                },
+                {
+                    "name": "Open or close right pane",
+                    "keys": [{"default": ["command+."]}]
+                },
+                {
+                    "name": "Channel info pane",
+                    "keys": [{"default": ["command+shift+i"]}]
+                },
+                {
+                    "name": "Activity",
+                    "keys": [{"default": ["command+shift+m"]}]
+                },
+                {
+                    "name": "Directory",
+                    "keys": [{"default": ["command+shift+e"]}]
+                },
+                {
+                    "name": "Starred Items",
+                    "keys": [{"default": ["command+shift+s"]}]
+                },
+                {
+                    "name": "Search the current channel or conversation",
+                    "keys": [{"default": ["command+f"]}]
+                },
+                {
+                    "name": "Toggle full screen view",
+                    "keys": [{"default": ["control+command+f"]}]
+                }
+            ]
+        },
+        {
+            "name": "All Unreads navigation",
+            "shortcuts": [
+                {
+                    "name": "command+shift+a",
+                    "keys": [{"default": ["#"]}]
+                },
+                {
+                    "name": "Move between channels",
+                    "keys": [{"default": ["right", "left"]}]
+                },
+                {
+                    "name": "Toggle current channel read or unread",
+                    "keys": [{"default": ["R"]}]
+                }
+            ]
+        },
+        {
+            "name": "Switch teams",
+            "shortcuts": [
+                {
+                    "name": "Switch to previous team",
+                    "keys": [{"default": ["command+shift+["]}]
+                },
+                {
+                    "name": "Switch to next team",
+                    "keys": [{"default": ["command+shift+]"]}]
+                }
+            ]
+        },
+        {
+            "name": "Mark messages read or unread",
+            "shortcuts": [
+                {
+                    "name": "Mark all messages in current channel or DM as read",
+                    "keys": [{"default": ["esc"]}]
+                },
+                {
+                    "name": "Mark all messages as read",
+                    "keys": [{"default": ["shift+esc"]}]
+                }
+            ]
+        },
+        {
+            "name": "Message shortcuts",
+            "shortcuts": [
+                {
+                    "name": "Edit your last message",
+                    "keys": [{"default": ["up"]}]
+                },
+                {
+                    "name": "Select text to beginning of current line",
+                    "keys": [{"default": ["shift+up"]}]
+                },
+                {
+                    "name": "Select text to end of current line",
+                    "keys": [{"default": ["shift+down"]}]
+                },
+                {
+                    "name": "Create a new line in your message",
+                    "keys": [{"default": ["shift+enter"]}]
+                },
+                {
+                    "name": "Add emoji reactions to a message",
+                    "keys": [{"default": ["command+shift+\"]}]
+                }
+            ]
+        },
+        {
+            "name": "Files and snippets",
+            "shortcuts": [
+                {
+                    "name": "Upload a file",
+                    "keys": [{"default": ["command+u"]}]
+                },
+                {
+                    "name": "Create a new Snippet",
+                    "keys": [{"default": ["command+shift+enter"]}]
+                }
+            ]
+        },
+        {
+            "name": "Call actions",
+            "shortcuts": [
+                {
+                    "name": "Toggle mute on and off",
+                    "keys": [{"default": ["m"]}]
+                },
+                {
+                    "name": "Toggle video on and off",
+                    "keys": [{"default": ["v"]}]
+                },
+                {
+                    "name": "Show the invite list",
+                    "keys": [{"default": ["+","a"]}]
+                },
+                {
+                    "name": "View and select and emoji reactions",
+                    "keys": [{"default": ["e+1"]}]
+                }
+            ]
+        }
+    ]
+}
