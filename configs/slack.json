@@ -174,7 +174,7 @@
                 },
                 {
                     "name": "Add emoji reactions to a message",
-                    "keys": [{"default": ["command+shift+\\\\"]}]
+                    "keys": [{"default": ["command+shift+\\"]}]
                 }
             ]
         },
