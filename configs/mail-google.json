@@ -1,0 +1,123 @@
+{
+    "name": "Gmail Shortcuts",
+    "sections": [
+        {
+            "name": "Compose and Chat",
+            "shortcuts": [
+                {
+                    "name": "Focus main window",
+                    "keys": [{"default": ["shift+esc"]}]
+                },
+                {
+                    "name": "Focus latest chat or compose",
+                    "keys": [{"default": ["esc"]}]
+                },
+                {
+                    "name": "Advance to next chat or compose",
+                    "keys": [{"default": ["ctrl+."]}]
+                },
+                {
+                    "name": "Advance to previous chat or compose",
+                    "keys": [{"default": ["ctrl+,"]}]
+                },
+                {
+                    "name": "Send",
+                    "keys": [{"default": ["command+enter"]}]
+                },
+                {
+                    "name": "Add cc recipients",
+                    "keys": [{"default": ["command+shift+c"]}]
+                },
+                {
+                    "name": "Add bc recipients",
+                    "keys": [{"default": ["command+shift+b"]}]
+                },
+                {
+                    "name": "Access custom from",
+                    "keys": [{"default": ["command+shift+f"]}]
+                },
+                {
+                    "name": "Insert a link",
+                    "keys": [{"default": ["command+k"]}]
+                },
+                {
+                    "name": "Go to next mispelled word",
+                    "keys": [{"default": ["command+k"]}]
+                },
+                {
+                    "name": "Open spelling suggestions",
+                    "keys": [{"default": ["command+m"]}]
+                }
+            ]
+        },
+        {
+            "name": "Formatting text",
+            "shortcuts": [
+                {
+                    "name": "Previous text",
+                    "keys": [{"default": ["command+shift+5"]}]
+                },
+                {
+                    "name": "Next font",
+                    "keys": [{"default": ["command+shift+6"]}]
+                },
+                {
+                    "name": "Decrease text size",
+                    "keys": [{"default": ["command+shift+-"]}]
+                },
+                {
+                    "name": "Increase text size",
+                    "keys": [{"default": ["command+shift++"]}]
+                },
+                {
+                    "name": "Bold",
+                    "keys": [{"default": ["command+b"]}]
+                },
+                {
+                    "name": "Italics",
+                    "keys": [{"default": ["command+i"]}]
+                },
+                {
+                    "name": "Underline",
+                    "keys": [{"default": ["command+u"]}]
+                },
+                {
+                    "name": "Numbered list",
+                    "keys": [{"default": ["command+shift+7"]}]
+                },
+                {
+                    "name": "Bulleted list",
+                    "keys": [{"default": ["command+shift+8"]}]
+                },
+                {
+                    "name": "Quote",
+                    "keys": [{"default": ["command+shift+9"]}]
+                },
+                {
+                    "name": "Indent less",
+                    "keys": [{"default": ["command+["]}]
+                },
+                {
+                    "name": "Indent more",
+                    "keys": [{"default": ["command+]"]}]
+                },
+                {
+                    "name": "Align left",
+                    "keys": [{"default": ["command+shift+l"]}]
+                },
+                {
+                    "name": "Align center",
+                    "keys": [{"default": ["command+shift+e"]}]
+                },
+                {
+                    "name": "Align right",
+                    "keys": [{"default": ["command+shift+r"]}]
+                },
+                {
+                    "name": "Remove formatting",
+                    "keys": [{"default": ["command+\\"]}]
+                }
+            ]
+        }
+    ]
+}
